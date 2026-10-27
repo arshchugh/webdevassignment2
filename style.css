@@ -1,0 +1,147 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+/* Header Styles */
+header {
+    background-color: #004aad;
+    padding: 10px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #004aad;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #004aad;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Image Styles */
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px gray;
+}
+
+/* Horizontal Line Styles */
+hr {
+    border: 1px solid #999999;
+}
+
+/* Skills Table Styles */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #004aad;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #004aad;
+    color: #ffffff;
+    padding: 8px 60px;
+    border: 1px solid #004aad;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #004aad;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Project Styles */
+.project-card {
+    width: 400px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+.contact-table {
+    width: 400px;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 3px;
+}
+
+/* Button Styles */
+button {
+    background-color: #004aad;
+    color: #ffffff;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #002f73;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004aad;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #004aad;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: #002f73;
+}
